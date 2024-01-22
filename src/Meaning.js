@@ -3,7 +3,7 @@ import Example from "./Example.js"
 import Synonyms from "./Synonyms.js"
 
 export default function Meaning (props){
-  console.log(props)
+  
     
   
     return (

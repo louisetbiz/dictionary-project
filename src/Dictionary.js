@@ -27,10 +27,12 @@ export default function Dictionary(){
 
     return ( 
         <div className="Dictionary">
+            <section>
             <form className="Dictionary-form d-flex justify-content-center" onSubmit={search}>
-             <input type="search" 
+             <input type="search" placeholder="write here to search your word"
              onChange={handleKeywordChange}/>
             </form>
+            </section>
             <Results results={results} />
         </div>
         
